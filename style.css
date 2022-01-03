@@ -1,0 +1,31 @@
+body {
+  background-color: #333333;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+#grid {
+  background-image: url(./board3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 610px;
+  width: 750px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.square {
+  align-items: center;
+  margin-left: 2px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.player1 {
+  background-color: rgb(197, 47, 47);
+}
+.player2 {
+  background-color: royalblue;
+}
